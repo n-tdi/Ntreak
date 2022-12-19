@@ -1,0 +1,36 @@
+# Broadcasted every 5 kills
+killstreak-broadcast: "%player% has a %count% kill streak!"
+# Command to give a player a key. NO "/"
+key-command: "crates givekey %player% reward 1"
+# Message when a player goes on their megastreak
+megastreak-message: "%player% has activated their %megastreak% Megastreak!"
+# Sound when going on megastreak
+megastreak-sound: "ENTITY_WITHER_SPAWN"
+# Megastreak GUI title
+megastreak-gui-title: "&c&lMEGASTREAK"
+# Cant change megastreak right now
+no-change: "&cYou cannot change your megastreak whilst you have a megastreak!"
+
+# Set as megastreak
+set-as-megastreak: "&7&oRight click to set as your Megastreak"
+
+# List of features for hunter
+hunter:
+  - "&5&oEvery 10 kills:"
+  - "&5&o+ 1 reward key"
+  - "&5&o+ 1 speed 3 (0:15)"
+  - "&5&o- Half a heart lost"
+
+# List of features for overdrive
+overdrive:
+  - "&5&oEvery 10 kills:"
+  - "&5&o+ 1 reward key"
+  - "&5&o+ 1 strength 3 (0:10)"
+  - "&5&o- +5% more damage taken"
+
+# List of features for tank
+tank:
+  - "&5&oEvery 20 kills:"
+  - "&5&o+ 1 reward key"
+  - "&5&o+ 1 Resistance 1 (0:15)"
+  - "&5&o- Complete loss of Saturation at 150 kills"
